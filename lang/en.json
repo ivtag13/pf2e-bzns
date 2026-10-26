@@ -60,6 +60,9 @@
           "PowerfulAlchemy": "Powerful Alchemy adjust DC"
         }
       },
+      "Feat":{
+        "BardicLore":"When you fail (but don't critically fail) a Recall Knowledge check using Bardic Lore, you learn the correct answer and an erroneous answer, but you don't have any way to differentiate which is which."
+      },
       "MagicalPotency": "Magical Potency",
       "MagicalEmpowerment": "Magical Empowerment",
       "APB":{ 

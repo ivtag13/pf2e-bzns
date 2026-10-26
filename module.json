@@ -2,20 +2,22 @@
   "id": "pf2e-bzns",
   "title": "PF2e Homerules from BZNS",
   "description": "Module for PF2e with 'little grain' of homerules of BZNS (which you can off or ignore, ofc)",
-  "version": "0.2.6",
+  "version": "0.2.8",
   "url": "https://github.com/ivtag13/BZNS-fixes/tree/main",
   "manifest": "https://raw.githubusercontent.com/ivtag13/BZNS-fixes/refs/heads/main/module.json",
   "download": "https://github.com/ivtag13/BZNS-fixes/archive/refs/heads/main.zip",
   "compatibility": {
-    "minimum": "12",
-    "verified": "13"
+    "minimum": "14",
+    "verified": "14"
   },
   "relationships": {
     "systems": [
       {
         "id": "pf2e",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "8.0.0"
+        }
       }
     ]
   },
@@ -29,7 +31,7 @@
   "scripts": [
   ],    
   "esmodules": [
-        "code/bzns-settings.js"
+        "code/pf2e-bzns-settings.js"
     ],
   "languages": [
     {
@@ -47,10 +49,7 @@
       "type": "Item",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
       "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
+      "private": false,
       "flags": {}
     },
     {
@@ -60,10 +59,7 @@
       "type": "Item",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
       "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
+      "private": false,
       "flags": {}
     },
     {
@@ -73,10 +69,7 @@
       "type": "Item",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
       "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
+      "private": false,
       "flags": {}
     },
     {
@@ -86,10 +79,7 @@
       "type": "Item",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
       "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
+      "private": false,
       "flags": {}
     },
     {
@@ -99,10 +89,7 @@
       "type": "Item",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
       "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
+      "private": false,
       "flags": {}
     },
     {
@@ -112,10 +99,7 @@
       "type": "Item",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
       "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
+      "private": false,
       "flags": {}
     },
     {
@@ -125,10 +109,7 @@
       "type": "Item",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
       "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
+      "private": false,
       "flags": {}
     },
     {
@@ -138,10 +119,7 @@
       "type": "JournalEntry",
       "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
       "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
+      "private": false,
       "flags": {}
     },
      {
@@ -151,10 +129,7 @@
       "type": "Item",
       "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
       "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
+      "private": false,
       "flags": {}
     },
     {
@@ -164,10 +139,7 @@
       "type": "Macro",
       "banner": "systems/pf2e/assets/compendium-banner/purple.webp",
       "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
+      "private": false,
       "flags": {}
     }
   ],
